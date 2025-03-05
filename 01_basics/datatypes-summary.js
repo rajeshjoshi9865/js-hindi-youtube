@@ -30,4 +30,21 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
+// stack(primitive), Heap(Non Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername="chaiaurcode"
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email="hitesh@google.com";
+
+
+
 
