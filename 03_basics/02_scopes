@@ -1,0 +1,21 @@
+
+// if(true){
+//     let a = 12
+//     const b = 13
+//     var c = 14
+//     console.log("inner:", a);
+    
+// }
+// // console.log(a);
+// // console.log(b);
+// console.log(c);
+addOne(5)
+function addOne(num){
+    return num+1
+}
+
+addTwo(5)
+const addTwo = function (num){
+    return num+2
+}
+addTwo(5)
